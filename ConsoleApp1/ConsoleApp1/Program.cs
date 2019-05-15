@@ -12,6 +12,7 @@ namespace ConsoleApp1
         {
             //Pull the detials
             //Sync the details
+            //added new branch called LocalFeature branch...
         }
     }
 }

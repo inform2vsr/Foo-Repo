@@ -8,9 +8,9 @@ namespace ConsoleApp1
 {
     class NewClass
     {
-        public int Add(int a, int b) {
+        public int Add(var a, var b) {
 
-            return (a + b);
+            var sum (a,b);
         }
     }
 

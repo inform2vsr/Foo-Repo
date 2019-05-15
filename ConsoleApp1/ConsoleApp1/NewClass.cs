@@ -8,6 +8,12 @@ namespace ConsoleApp1
 {
     class NewClass
     {
-        //This is new class added
+        public int Add(int a, int b) {
+
+            int sum = a + b;
+            return sum;
+        }
     }
+
+
 }

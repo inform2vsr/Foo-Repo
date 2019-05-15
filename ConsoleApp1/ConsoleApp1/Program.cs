@@ -10,9 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //Pull the detials
-            //Sync the details
-            //added new branch called LocalFeature branch...
+            
         }
     }
 }

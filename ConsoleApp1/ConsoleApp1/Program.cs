@@ -11,6 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             //Editing this application for testing purpose.
+            //use fetch and merge
         }
     }
 }

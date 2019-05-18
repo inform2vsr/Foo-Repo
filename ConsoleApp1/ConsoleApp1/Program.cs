@@ -10,7 +10,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            
+            NewClass _class1 = NewClass.getInstance();
+            NewClass _class2 = NewClass.getInstance();
+
+
+            Console.WriteLine(_class1.GetHashCode());
+            Console.WriteLine(_class2.GetHashCode());
+
+            Console.ReadKey();
         }
     }
 }

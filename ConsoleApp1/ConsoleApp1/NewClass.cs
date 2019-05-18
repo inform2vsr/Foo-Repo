@@ -6,13 +6,26 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class NewClass
+    public class NewClass
     {
-        public int Add(int a, int b) {
+        public static  NewClass _newClass;
 
-            int sum = a + b;
-            return sum;
+        private NewClass() {
+
+
         }
+
+        public static NewClass getInstance() {
+
+            if (_newClass == null)
+            {
+                _newClass = new NewClass();
+
+            }
+
+            return _newClass;
+        }
+
     }
 
 
